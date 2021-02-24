@@ -26,6 +26,19 @@
   text-align: center;
   font-weight: bold;
 }
+ .container  .option-box{
+    
+    /* flex-basis: 100%; */
+    list-style: none;
+    float: left;
+    max-width: 100%;
+    min-height:500px;
+    /* display: flex; */
+    /* padding:15px 15px; */
+    /* flex-wrap:wrap;    */
+    /* justify-content: center; */
+    /* align-content: flex-start; */
+}
 /* ----- PAREI NO 2:23 -------- */
 
 
