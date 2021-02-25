@@ -52,10 +52,20 @@
      -webkit-background-clip: text;
      color: transparent;
 }
- @media screen and (max-width:1200px){
+ @media screen and (max-width:1250px){
      .container .quiz-box h1{
-         width: 40%;
-         margin: 20px;
+         width:40%;
+    }
+}
+ @media screen and (max-width:750px){
+     .container{
+         width:100%;
+         margin: 0px;
+     }
+     .container .quiz-box h1{
+         float: none;
+         width:90%;
+         margin:40px auto;
      }
 }
 
