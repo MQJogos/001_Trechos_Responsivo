@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap');
 
 .container{
-     width:90%;
+     height: 600px;
+     
+     width: 700px;
      overflow: hidden;
      margin: 60px auto;
      background-color: rgba(91, 128, 86, 0.5);
@@ -39,7 +41,11 @@
     /* justify-content: center; */
     /* align-content: flex-start; */
 }
- .container .quiz-box h1{
+container .quiz-box h1:hover{
+    opacity: 0.9;
+
+}
+.container .quiz-box h1{
     text-transform: uppercase;
     text-align: center;
     font-size: 70px;
@@ -52,12 +58,13 @@
      -webkit-background-clip: text;
      color: transparent;
 }
- @media screen and (max-width:1250px){
+
+ @media screen and (max-width:700px){
      .container .quiz-box h1{
          width:40%;
     }
 }
- @media screen and (max-width:750px){
+ @media screen and (max-width:200px){
      .container{
          width:100%;
          margin: 0px;
